@@ -1,0 +1,1782 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Gym-App.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/v{version}/Authenticate/loginuser": {
+      "post": {
+        "tags": [
+          "Authenticate"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthenticateRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthenticateRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthenticateRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthenticateResponseModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v{version}/Authenticate/refresh-token": {
+      "post": {
+        "tags": [
+          "Authenticate"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthenticateResponseModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v{version}/Authenticate/logout": {
+      "post": {
+        "tags": [
+          "Authenticate"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/companycreation": {
+      "post": {
+        "tags": [
+          "Company"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Company"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Company"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Company"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/companyupdation": {
+      "post": {
+        "tags": [
+          "Company"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Company"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Company"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Company"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/companydetails": {
+      "get": {
+        "tags": [
+          "Company"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Company"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/reviewcreation": {
+      "post": {
+        "tags": [
+          "CustomerReview"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReviewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReviewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReviewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/reviewdetails": {
+      "get": {
+        "tags": [
+          "CustomerReview"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReviewDetailsModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gymtypecreation": {
+      "post": {
+        "tags": [
+          "GymType"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GymType"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GymType"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GymType"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/gymtypeupdation": {
+      "post": {
+        "tags": [
+          "GymType"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GymType"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GymType"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GymType"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/gymtypedetails": {
+      "get": {
+        "tags": [
+          "GymType"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GymType"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/membershipcreation": {
+      "post": {
+        "tags": [
+          "Membership"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MembershipModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MembershipModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MembershipModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/membershipdetails": {
+      "post": {
+        "tags": [
+          "Membership"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MemberShipDetails"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v{version}/Role/rolecreation": {
+      "post": {
+        "tags": [
+          "Role"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Role"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Role"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Role"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v{version}/Role/roleupdate": {
+      "post": {
+        "tags": [
+          "Role"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Role"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Role"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Role"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v{version}/Role/roledetails": {
+      "get": {
+        "tags": [
+          "Role"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Role"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v{version}/User/usercreation": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UserId": {
+                    "type": "integer",
+                    "format": "int64"
+                  },
+                  "UserName": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  },
+                  "FullName": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Phone": {
+                    "type": "string"
+                  },
+                  "Gender": {
+                    "type": "string"
+                  },
+                  "DateOfBirth": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "Address": {
+                    "type": "string"
+                  },
+                  "IsActive": {
+                    "type": "boolean"
+                  },
+                  "CreatedBy": {
+                    "type": "integer",
+                    "format": "int64"
+                  },
+                  "CreatedDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "ModifiedBy": {
+                    "type": "integer",
+                    "format": "int64"
+                  },
+                  "ModifiedDate": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "IsDeleted": {
+                    "type": "boolean"
+                  },
+                  "CompanyId": {
+                    "type": "integer",
+                    "format": "int64"
+                  },
+                  "RoleId": {
+                    "type": "integer",
+                    "format": "int64"
+                  },
+                  "PhotoPath": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "UserId": {
+                  "style": "form"
+                },
+                "UserName": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                },
+                "FullName": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Phone": {
+                  "style": "form"
+                },
+                "Gender": {
+                  "style": "form"
+                },
+                "DateOfBirth": {
+                  "style": "form"
+                },
+                "Address": {
+                  "style": "form"
+                },
+                "IsActive": {
+                  "style": "form"
+                },
+                "CreatedBy": {
+                  "style": "form"
+                },
+                "CreatedDate": {
+                  "style": "form"
+                },
+                "ModifiedBy": {
+                  "style": "form"
+                },
+                "ModifiedDate": {
+                  "style": "form"
+                },
+                "IsDeleted": {
+                  "style": "form"
+                },
+                "CompanyId": {
+                  "style": "form"
+                },
+                "RoleId": {
+                  "style": "form"
+                },
+                "PhotoPath": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v{version}/User/userdetails": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserDetails"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v{version}/User/userprofile": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserProfile"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AuthenticateRequestModel": {
+        "required": [
+          "LoginName",
+          "Password"
+        ],
+        "type": "object",
+        "properties": {
+          "LoginName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "IsFirstTimeLoggedIn": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "Loginstatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "SessionKey": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AuthenticateResponseModel": {
+        "type": "object",
+        "properties": {
+          "Token": {
+            "type": "string",
+            "nullable": true
+          },
+          "RefreshToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "Roles": {
+            "type": "string",
+            "nullable": true
+          },
+          "SessionKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "RefreshInterval": {
+            "type": "number",
+            "format": "double"
+          },
+          "IsFirstTimeLoggedIn": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "LoginId": {
+            "type": "string",
+            "nullable": true
+          },
+          "UserId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "Status": {
+            "type": "string",
+            "nullable": true
+          },
+          "RefKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "Message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Company": {
+        "type": "object",
+        "properties": {
+          "CompanyId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "CompanyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "CompOwnerName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Address": {
+            "type": "string",
+            "nullable": true
+          },
+          "PhotoPath": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean"
+          },
+          "CreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ModifiedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "Createdby": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "Modifiedby": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "CustomerTrainers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomerTrainer"
+            },
+            "nullable": true
+          },
+          "Dietplans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dietplan"
+            },
+            "nullable": true
+          },
+          "Memberships": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Membership"
+            },
+            "nullable": true
+          },
+          "Ratings": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Rating"
+            },
+            "nullable": true
+          },
+          "Trainers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Trainer"
+            },
+            "nullable": true
+          },
+          "UserLoginTokens": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UserLoginToken"
+            },
+            "nullable": true
+          },
+          "UserPhotos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UserPhoto"
+            },
+            "nullable": true
+          },
+          "Users": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/User"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerTrainer": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "UserId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "TrainerId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean"
+          },
+          "CompanyId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "Company": {
+            "$ref": "#/components/schemas/Company"
+          },
+          "Trainer": {
+            "$ref": "#/components/schemas/Trainer"
+          },
+          "User": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dietplan": {
+        "type": "object",
+        "properties": {
+          "DietplanId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "UserId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "FileName": {
+            "type": "string",
+            "nullable": true
+          },
+          "FilePath": {
+            "type": "string",
+            "nullable": true
+          },
+          "CreatedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean"
+          },
+          "CompanyId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "Company": {
+            "$ref": "#/components/schemas/Company"
+          },
+          "User": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dietplans": {
+        "type": "object",
+        "properties": {
+          "FilePath": {
+            "type": "string",
+            "nullable": true
+          },
+          "FileName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GymType": {
+        "type": "object",
+        "properties": {
+          "TypeId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "TypeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "CreatedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ModifiedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "ModifiedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MemberShipDetails": {
+        "type": "object",
+        "properties": {
+          "MembershipId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "Duration": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "UserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "PhotoPath": {
+            "type": "string",
+            "nullable": true
+          },
+          "Type": {
+            "type": "string",
+            "nullable": true
+          },
+          "StartDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "EndDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Membership": {
+        "type": "object",
+        "properties": {
+          "MembershipId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "UserId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "Duration": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "StartDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "EndDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsActive": {
+            "type": "boolean"
+          },
+          "CreatedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean"
+          },
+          "CompanyId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "TrainerId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "Type": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "Company": {
+            "$ref": "#/components/schemas/Company"
+          },
+          "User": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MembershipModel": {
+        "type": "object",
+        "properties": {
+          "MembershipId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "UserId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "Duration": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Type": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "StartDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "EndDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsActive": {
+            "type": "boolean"
+          },
+          "CreatedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean"
+          },
+          "CompanyId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "TrainerId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Rating": {
+        "type": "object",
+        "properties": {
+          "RatingId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "UserId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "Stars": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Review": {
+            "type": "string",
+            "nullable": true
+          },
+          "CreatedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ModifiedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "ModifiedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean"
+          },
+          "CompanyId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "Company": {
+            "$ref": "#/components/schemas/Company"
+          },
+          "User": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReviewDetailsModel": {
+        "type": "object",
+        "properties": {
+          "PhotoPath": {
+            "type": "string",
+            "nullable": true
+          },
+          "UserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Stars": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Review": {
+            "type": "string",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReviewModel": {
+        "type": "object",
+        "properties": {
+          "UserId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "Stars": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Review": {
+            "type": "string",
+            "nullable": true
+          },
+          "CreatedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ModifiedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "ModifiedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean"
+          },
+          "CompanyId": {
+            "type": "integer",
+            "format": "int64"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Role": {
+        "type": "object",
+        "properties": {
+          "RoleId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "RoleCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "RoleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "RoleLevel": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean"
+          },
+          "CreatedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ModifiedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "ModifiedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Trainer": {
+        "type": "object",
+        "properties": {
+          "TrainerId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "FullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Speciality": {
+            "type": "string",
+            "nullable": true
+          },
+          "Contact": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsActive": {
+            "type": "boolean"
+          },
+          "CreatedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ModifiedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "ModifiedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean"
+          },
+          "CompanyId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "Company": {
+            "$ref": "#/components/schemas/Company"
+          },
+          "CustomerTrainers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomerTrainer"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "UserId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "UserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Password": {
+            "type": "string",
+            "nullable": true
+          },
+          "FullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "Gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "DateOfBirth": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "Address": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsActive": {
+            "type": "boolean"
+          },
+          "CreatedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ModifiedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "ModifiedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean"
+          },
+          "CompanyId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "RoleId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "Company": {
+            "$ref": "#/components/schemas/Company"
+          },
+          "CustomerTrainers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomerTrainer"
+            },
+            "nullable": true
+          },
+          "Dietplans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dietplan"
+            },
+            "nullable": true
+          },
+          "Memberships": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Membership"
+            },
+            "nullable": true
+          },
+          "Ratings": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Rating"
+            },
+            "nullable": true
+          },
+          "UserLoginTokens": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UserLoginToken"
+            },
+            "nullable": true
+          },
+          "UserPhotos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UserPhoto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserDetails": {
+        "type": "object",
+        "properties": {
+          "UserId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "PhotoPath": {
+            "type": "string",
+            "nullable": true
+          },
+          "UserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "PhoneNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "MemberShip": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserLoginToken": {
+        "type": "object",
+        "properties": {
+          "TokenId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "UserId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "UserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "RefreshToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "Expires": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsExpired": {
+            "type": "boolean"
+          },
+          "IsActive": {
+            "type": "boolean"
+          },
+          "JwtToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "RevokedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "Revoked": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "CreatedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean"
+          },
+          "CompanyId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "ReplacedByToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "SessionId": {
+            "type": "string",
+            "nullable": true
+          },
+          "CrfToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "Company": {
+            "$ref": "#/components/schemas/Company"
+          },
+          "User": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserPhoto": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "UserId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "PhotoPath": {
+            "type": "string",
+            "nullable": true
+          },
+          "CreatedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ModifiedBy": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "ModifiedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean"
+          },
+          "CompanyId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "Company": {
+            "$ref": "#/components/schemas/Company"
+          },
+          "User": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserProfile": {
+        "type": "object",
+        "properties": {
+          "UserId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "PhotoPath": {
+            "type": "string",
+            "nullable": true
+          },
+          "UserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "PhoneNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Trainer": {
+            "type": "string",
+            "nullable": true
+          },
+          "Speciality": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "Star": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Review": {
+            "type": "string",
+            "nullable": true
+          },
+          "StartDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "EndDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ModifiedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "dietplans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dietplans"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

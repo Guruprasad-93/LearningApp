@@ -1,0 +1,17 @@
+G:\Gym\gym-app-api\Domain\gym-app.Domain\bin\Debug\net8.0\gym-app.Domain.deps.json
+G:\Gym\gym-app-api\Domain\gym-app.Domain\bin\Debug\net8.0\gym-app.Domain.dll
+G:\Gym\gym-app-api\Domain\gym-app.Domain\bin\Debug\net8.0\gym-app.Domain.pdb
+G:\Gym\gym-app-api\Domain\gym-app.Domain\bin\Debug\net8.0\MediaLibrary.dll
+G:\Gym\gym-app-api\Domain\gym-app.Domain\bin\Debug\net8.0\TokenLibrary.dll
+G:\Gym\gym-app-api\Domain\gym-app.Domain\bin\Debug\net8.0\MediaLibrary.pdb
+G:\Gym\gym-app-api\Domain\gym-app.Domain\bin\Debug\net8.0\TokenLibrary.pdb
+G:\Gym\gym-app-api\Domain\gym-app.Domain\obj\Debug\net8.0\gym-app.Domain.csproj.AssemblyReference.cache
+G:\Gym\gym-app-api\Domain\gym-app.Domain\obj\Debug\net8.0\gym-app.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\Gym\gym-app-api\Domain\gym-app.Domain\obj\Debug\net8.0\gym-app.Domain.AssemblyInfoInputs.cache
+G:\Gym\gym-app-api\Domain\gym-app.Domain\obj\Debug\net8.0\gym-app.Domain.AssemblyInfo.cs
+G:\Gym\gym-app-api\Domain\gym-app.Domain\obj\Debug\net8.0\gym-app.Domain.csproj.CoreCompileInputs.cache
+G:\Gym\gym-app-api\Domain\gym-app.Domain\obj\Debug\net8.0\gym-app..F7749519.Up2Date
+G:\Gym\gym-app-api\Domain\gym-app.Domain\obj\Debug\net8.0\gym-app.Domain.dll
+G:\Gym\gym-app-api\Domain\gym-app.Domain\obj\Debug\net8.0\refint\gym-app.Domain.dll
+G:\Gym\gym-app-api\Domain\gym-app.Domain\obj\Debug\net8.0\gym-app.Domain.pdb
+G:\Gym\gym-app-api\Domain\gym-app.Domain\obj\Debug\net8.0\ref\gym-app.Domain.dll

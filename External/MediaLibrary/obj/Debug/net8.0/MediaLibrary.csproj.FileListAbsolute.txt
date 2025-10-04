@@ -1,0 +1,11 @@
+G:\Gym\gym-app-api\External\MediaLibrary\bin\Debug\net8.0\MediaLibrary.deps.json
+G:\Gym\gym-app-api\External\MediaLibrary\bin\Debug\net8.0\MediaLibrary.dll
+G:\Gym\gym-app-api\External\MediaLibrary\bin\Debug\net8.0\MediaLibrary.pdb
+G:\Gym\gym-app-api\External\MediaLibrary\obj\Debug\net8.0\MediaLibrary.GeneratedMSBuildEditorConfig.editorconfig
+G:\Gym\gym-app-api\External\MediaLibrary\obj\Debug\net8.0\MediaLibrary.AssemblyInfoInputs.cache
+G:\Gym\gym-app-api\External\MediaLibrary\obj\Debug\net8.0\MediaLibrary.AssemblyInfo.cs
+G:\Gym\gym-app-api\External\MediaLibrary\obj\Debug\net8.0\MediaLibrary.csproj.CoreCompileInputs.cache
+G:\Gym\gym-app-api\External\MediaLibrary\obj\Debug\net8.0\MediaLibrary.dll
+G:\Gym\gym-app-api\External\MediaLibrary\obj\Debug\net8.0\refint\MediaLibrary.dll
+G:\Gym\gym-app-api\External\MediaLibrary\obj\Debug\net8.0\MediaLibrary.pdb
+G:\Gym\gym-app-api\External\MediaLibrary\obj\Debug\net8.0\ref\MediaLibrary.dll
