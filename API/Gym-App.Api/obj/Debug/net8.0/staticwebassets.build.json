@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "a96p4e8i71eRZTUok4YkTBUIvFArOKI2GhumzX7qUWg=",
+  "Source": "Gym-App.Api",
+  "BasePath": "_content/Gym-App.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

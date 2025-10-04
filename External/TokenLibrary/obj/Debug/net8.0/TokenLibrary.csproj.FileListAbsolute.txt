@@ -1,0 +1,12 @@
+G:\Gym\gym-app-api\External\TokenLibrary\bin\Debug\net8.0\TokenLibrary.deps.json
+G:\Gym\gym-app-api\External\TokenLibrary\bin\Debug\net8.0\TokenLibrary.dll
+G:\Gym\gym-app-api\External\TokenLibrary\bin\Debug\net8.0\TokenLibrary.pdb
+G:\Gym\gym-app-api\External\TokenLibrary\obj\Debug\net8.0\TokenLibrary.csproj.AssemblyReference.cache
+G:\Gym\gym-app-api\External\TokenLibrary\obj\Debug\net8.0\TokenLibrary.GeneratedMSBuildEditorConfig.editorconfig
+G:\Gym\gym-app-api\External\TokenLibrary\obj\Debug\net8.0\TokenLibrary.AssemblyInfoInputs.cache
+G:\Gym\gym-app-api\External\TokenLibrary\obj\Debug\net8.0\TokenLibrary.AssemblyInfo.cs
+G:\Gym\gym-app-api\External\TokenLibrary\obj\Debug\net8.0\TokenLibrary.csproj.CoreCompileInputs.cache
+G:\Gym\gym-app-api\External\TokenLibrary\obj\Debug\net8.0\TokenLibrary.dll
+G:\Gym\gym-app-api\External\TokenLibrary\obj\Debug\net8.0\refint\TokenLibrary.dll
+G:\Gym\gym-app-api\External\TokenLibrary\obj\Debug\net8.0\TokenLibrary.pdb
+G:\Gym\gym-app-api\External\TokenLibrary\obj\Debug\net8.0\ref\TokenLibrary.dll
