@@ -3101,11 +3101,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Gym\\gym-app-api\\IOC\\gym-app.IOC\\gym-app.IOC.csproj",
+      "projectUniqueName": "G:\\Gym\\GymApp-Backend\\IOC\\gym-app.IOC\\gym-app.IOC.csproj",
       "projectName": "gym-app.IOC",
-      "projectPath": "G:\\Gym\\gym-app-api\\IOC\\gym-app.IOC\\gym-app.IOC.csproj",
+      "projectPath": "G:\\Gym\\GymApp-Backend\\IOC\\gym-app.IOC\\gym-app.IOC.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "G:\\Gym\\gym-app-api\\IOC\\gym-app.IOC\\obj\\",
+      "outputPath": "G:\\Gym\\GymApp-Backend\\IOC\\gym-app.IOC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3126,14 +3126,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\Gym\\gym-app-api\\Application\\gym-app.Business\\gym-app.Business.csproj": {
-              "projectPath": "G:\\Gym\\gym-app-api\\Application\\gym-app.Business\\gym-app.Business.csproj"
+            "G:\\Gym\\GymApp-Backend\\Application\\gym-app.Business\\gym-app.Business.csproj": {
+              "projectPath": "G:\\Gym\\GymApp-Backend\\Application\\gym-app.Business\\gym-app.Business.csproj"
             },
-            "G:\\Gym\\gym-app-api\\Data\\gym-app.Infrastructure\\gym-app.Infrastructure.csproj": {
-              "projectPath": "G:\\Gym\\gym-app-api\\Data\\gym-app.Infrastructure\\gym-app.Infrastructure.csproj"
+            "G:\\Gym\\GymApp-Backend\\Data\\gym-app.Infrastructure\\gym-app.Infrastructure.csproj": {
+              "projectPath": "G:\\Gym\\GymApp-Backend\\Data\\gym-app.Infrastructure\\gym-app.Infrastructure.csproj"
             },
-            "G:\\Gym\\gym-app-api\\Domain\\gym-app.Domain\\gym-app.Domain.csproj": {
-              "projectPath": "G:\\Gym\\gym-app-api\\Domain\\gym-app.Domain\\gym-app.Domain.csproj"
+            "G:\\Gym\\GymApp-Backend\\Domain\\gym-app.Domain\\gym-app.Domain.csproj": {
+              "projectPath": "G:\\Gym\\GymApp-Backend\\Domain\\gym-app.Domain\\gym-app.Domain.csproj"
             }
           }
         }

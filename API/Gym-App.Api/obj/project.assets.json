@@ -5558,11 +5558,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Gym\\gym-app-api\\API\\Gym-App.Api\\Gym-App.Api.csproj",
+      "projectUniqueName": "G:\\Gym\\GymApp-Backend\\API\\Gym-App.Api\\Gym-App.Api.csproj",
       "projectName": "Gym-App.Api",
-      "projectPath": "G:\\Gym\\gym-app-api\\API\\Gym-App.Api\\Gym-App.Api.csproj",
+      "projectPath": "G:\\Gym\\GymApp-Backend\\API\\Gym-App.Api\\Gym-App.Api.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "G:\\Gym\\gym-app-api\\API\\Gym-App.Api\\obj\\",
+      "outputPath": "G:\\Gym\\GymApp-Backend\\API\\Gym-App.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5583,14 +5583,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\Gym\\gym-app-api\\Data\\gym-app.Infrastructure\\gym-app.Infrastructure.csproj": {
-              "projectPath": "G:\\Gym\\gym-app-api\\Data\\gym-app.Infrastructure\\gym-app.Infrastructure.csproj"
+            "G:\\Gym\\GymApp-Backend\\Data\\gym-app.Infrastructure\\gym-app.Infrastructure.csproj": {
+              "projectPath": "G:\\Gym\\GymApp-Backend\\Data\\gym-app.Infrastructure\\gym-app.Infrastructure.csproj"
             },
-            "G:\\Gym\\gym-app-api\\Domain\\gym-app.Domain\\gym-app.Domain.csproj": {
-              "projectPath": "G:\\Gym\\gym-app-api\\Domain\\gym-app.Domain\\gym-app.Domain.csproj"
+            "G:\\Gym\\GymApp-Backend\\Domain\\gym-app.Domain\\gym-app.Domain.csproj": {
+              "projectPath": "G:\\Gym\\GymApp-Backend\\Domain\\gym-app.Domain\\gym-app.Domain.csproj"
             },
-            "G:\\Gym\\gym-app-api\\IOC\\gym-app.IOC\\gym-app.IOC.csproj": {
-              "projectPath": "G:\\Gym\\gym-app-api\\IOC\\gym-app.IOC\\gym-app.IOC.csproj"
+            "G:\\Gym\\GymApp-Backend\\IOC\\gym-app.IOC\\gym-app.IOC.csproj": {
+              "projectPath": "G:\\Gym\\GymApp-Backend\\IOC\\gym-app.IOC\\gym-app.IOC.csproj"
             }
           }
         }

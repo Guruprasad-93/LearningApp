@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8SCvHuib5Xk=",
+  "dgSpecHash": "RisgO7lLOdk=",
   "success": true,
-  "projectFilePath": "G:\\Gym\\gym-app-api\\API\\Gym-App.Api\\Gym-App.Api.csproj",
+  "projectFilePath": "G:\\Gym\\GymApp-Backend\\API\\Gym-App.Api\\Gym-App.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

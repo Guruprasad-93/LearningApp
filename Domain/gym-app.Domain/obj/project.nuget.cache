@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/jUBQXcu0PI=",
+  "dgSpecHash": "hSwQz+deetU=",
   "success": true,
-  "projectFilePath": "G:\\Gym\\gym-app-api\\Domain\\gym-app.Domain\\gym-app.Domain.csproj",
+  "projectFilePath": "G:\\Gym\\GymApp-Backend\\Domain\\gym-app.Domain\\gym-app.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.3.0\\microsoft.aspnetcore.hosting.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.3.0\\microsoft.aspnetcore.hosting.server.abstractions.2.3.0.nupkg.sha512",

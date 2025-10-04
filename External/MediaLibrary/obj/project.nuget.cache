@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1hr1SfyknWI=",
+  "dgSpecHash": "d8tLKFB3yHE=",
   "success": true,
-  "projectFilePath": "G:\\Gym\\gym-app-api\\External\\MediaLibrary\\MediaLibrary.csproj",
+  "projectFilePath": "G:\\Gym\\GymApp-Backend\\External\\MediaLibrary\\MediaLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TokenLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28408f32c3ce377ed0d1c3bf3919be1b0f88228a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TokenLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TokenLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

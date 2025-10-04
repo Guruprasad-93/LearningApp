@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Gym\\gym-app-api\\External\\MediaLibrary\\MediaLibrary.csproj",
+      "projectUniqueName": "G:\\Gym\\GymApp-Backend\\External\\MediaLibrary\\MediaLibrary.csproj",
       "projectName": "MediaLibrary",
-      "projectPath": "G:\\Gym\\gym-app-api\\External\\MediaLibrary\\MediaLibrary.csproj",
+      "projectPath": "G:\\Gym\\GymApp-Backend\\External\\MediaLibrary\\MediaLibrary.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "G:\\Gym\\gym-app-api\\External\\MediaLibrary\\obj\\",
+      "outputPath": "G:\\Gym\\GymApp-Backend\\External\\MediaLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

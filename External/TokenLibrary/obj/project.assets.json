@@ -404,11 +404,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Gym\\gym-app-api\\External\\TokenLibrary\\TokenLibrary.csproj",
+      "projectUniqueName": "G:\\Gym\\GymApp-Backend\\External\\TokenLibrary\\TokenLibrary.csproj",
       "projectName": "TokenLibrary",
-      "projectPath": "G:\\Gym\\gym-app-api\\External\\TokenLibrary\\TokenLibrary.csproj",
+      "projectPath": "G:\\Gym\\GymApp-Backend\\External\\TokenLibrary\\TokenLibrary.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "G:\\Gym\\gym-app-api\\External\\TokenLibrary\\obj\\",
+      "outputPath": "G:\\Gym\\GymApp-Backend\\External\\TokenLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
